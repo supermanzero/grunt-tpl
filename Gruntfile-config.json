@@ -1,0 +1,29 @@
+{
+	"path" : {
+		"app" : 		"app",
+		"src" : 		"src",
+		"dist": 		"dist",
+		"theme": 		"default",
+		"tmp" : 		"app/tmp",
+		"view" : 		"view"
+	},
+	
+	"cmsms" : {
+		"db_hostname": 	"localhost",
+		"db_name": 		"db_name",
+		"db_username": 	"username",
+		"db_password": 	"password",
+		"sitename": 	"Grunt",
+		"theme_dir":	"default"
+
+	},
+	
+	"ftp" : {
+		"host": 		"localhost",
+		"port": 		"22",
+		"user": 		"username",
+		"password": 	"password",
+		"remote_dir": 	""	
+	}
+
+}

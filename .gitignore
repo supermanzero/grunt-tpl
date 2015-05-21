@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+dist
+.idea
+.tmp
+tmp
+.sass-cache
+app/themes/default/bower_components
