@@ -1,0 +1,6 @@
+{
+    "appDir": "src/static",
+    "baseUrl": "./js/core",
+    "dir": "./out",
+    "modules": [{"name": "b"}]
+}
