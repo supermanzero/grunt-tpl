@@ -48,7 +48,7 @@ module.exports = function(grunt) {
                 }]
             },
             server: '<%= paths.tmp %>',
-            build:['.git']
+            git:['.git']
         },
 
         copy: {
@@ -139,5 +139,5 @@ module.exports = function(grunt) {
         'usemin'
     ]);
 
-    grunt.registerTask('default', ['clean:build']);
+    grunt.registerTask('default', ['clean:git']);
 };
