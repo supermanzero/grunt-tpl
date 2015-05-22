@@ -27,7 +27,8 @@
     "grunt-pixrem": "~0.1.2",
     "grunt-filerev": "~2.1.1",
     "grunt-php":"*",
-    "grunt-contrib-connect":"*"
+    "grunt-contrib-connect":"*",
+    "grunt-contrib-handlebars":"*"
   },
   "engines": {
     "node": ">=0.8.0"

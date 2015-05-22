@@ -100,6 +100,22 @@ module.exports = function(grunt) {
             }
         },
 
+        //handlebars task
+        handlebars: {
+            compile: {
+                options: {
+                    namespace: "JST",
+                    amd:true,
+                    processName: function(filename) {
+                        return filename.replace(/.*\/(\w+)\.hbs/, '$1');
+                    }
+                },
+                files: {
+                    "<%= paths.course %>/js/core/template/course.js": ["<%= paths.course %>/js/core/template/*.hbs"]
+                }
+            }
+        },
+
         // watch files
         watch: {
             js: {
